@@ -1,0 +1,21 @@
+# MongoDB Configuration
+MONGODB_URI=
+
+# Session Secret (generate a strong, unique secret)
+SESSION_SECRET=12345678
+
+# Port for the Express server
+PORT=
+
+# Rate Limiting Configuration
+RATE_LIMIT_WINDOW_MS=900000   # 15 minutes
+RATE_LIMIT_MAX_REQUESTS=100   # Max requests per window
+
+# Content Security Policy (CSP) Configuration (customize as needed)
+CSP_DIRECTIVES=default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'
+
+# Cross-Origin Resource Sharing (CORS) Configuration
+CORS_ALLOW_ORIGIN=http://localhost:3000   # Replace with your frontend URL
+
+# API Version (optional, for versioning your API)
+API_VERSION=v1
